@@ -1,0 +1,524 @@
+* {
+    margin: 0PX;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+
+
+/* NAV */
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #556B2F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* right: 0; */
+    z-index: 1;
+    /* padding: 1.3rem 10%; */
+}
+
+.nav-img {
+    width: 100%;
+    height: 100px;
+    padding-left: 5px;
+}
+
+#check {
+    display: none;
+}
+
+.icons {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    right: 10%;
+    display: none;
+}
+
+.icons:hover {
+    color: #DAA520;
+    font-size: 35px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    padding: 0px 20px;
+    margin-right: 1.3rem;
+    z-index: 4;
+}
+
+.navbar a:hover {
+    font-size: 35px;
+    color: #DAA520;
+}
+
+/*  */
+.container {
+    /* padding-top: 100px; */
+    width: 100%;
+}
+
+/*  */
+
+/* HOME */
+
+#home {
+    width: 100%;
+    height: auto;
+}
+
+.home-contents {
+    margin-top: 8%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.home-heading {
+    font-family: "Baskervville SC", serif;
+    font-size: 45px;
+    color: #BDB76B;
+    font-weight: 600;
+}
+
+.home-para {
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 5px 0px;
+}
+
+.but {
+    padding: 10px 20px;
+    color: white;
+    font-size: 28px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+    border: solid 1px gray;
+    border-radius: 30px;
+    margin: 30px 10px 0px 0px;
+    cursor: pointer;
+}
+
+#bt1 {
+    background-color: #D2B48C;
+}
+
+#bt1:hover {
+    color: #D2B48C;
+    background-color: white;
+}
+
+#bt2 {
+    background: transparent;
+}
+
+#bt2:hover {
+    color: #D2B48C;
+    background-color: wheat;
+}
+
+.icons-home {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icons-sub {
+    padding: 5px;
+}
+
+.home-icon-img {
+    width: 100%;
+    height: 100px;
+}
+
+.icon-heading {
+    font-family: "Baskervville SC", serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.home-bg-img {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    z-index: -1;
+    /* bottom: 100%; */
+    top: 0;
+
+}
+
+/* TOURS */
+#tours {
+    background-color: #DCDCDC;
+    width: 100%;
+    height: auto;
+    padding-top: 7%;
+    /* text-align: center; */
+}
+
+.left-tour {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tour-heading {
+    font-size: 55px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.tour-para {
+    padding: 3% 3%;
+    font-size: 18px;
+    color: black;
+    line-height: 1.2;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.tour-button {
+    padding: 10px 20px;
+    color: white;
+    font-size: 28px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+    border: solid 1px gray;
+    border-radius: 30px;
+    margin: 30px 10px 0px 0px;
+    cursor: pointer;
+    background-color: #D2B48C;
+}
+
+.tour-button:hover {
+    color: #D2B48C;
+    background-color: white;
+}
+
+.tour-images {
+    margin-top: 5%;
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-tour {
+    width: 400px;
+    height: 300px;
+}
+
+/* ACTIVITIES */
+#activities {
+    width: 100%;
+    height: auto;
+    background-color: #FFDAB9;
+}
+
+.activities-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10% 0px;
+    text-align: justify;
+}
+
+.activities-heading {
+    font-family: "Baskervville SC", serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #FFF5EE;
+}
+
+.activities-list {
+    list-style: square;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+/* GUIDE */
+#guide {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.guide-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    padding: 10% 20px;
+    text-align: center;
+}
+
+.guide-sub {
+    width: 100%;
+}
+
+.guide-heading {
+    font-size: 55px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.guide-para {
+    padding: 3% 3%;
+    font-size: 15px;
+    color: black;
+    line-height: 1.3;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.guide-heading-2 {
+    font-size: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+#guide-p {
+    color: #BDB76B;
+}
+
+/* SPORT ACTIVITIES */
+#sport {
+    padding: 5%;
+    width: 100%;
+    height: auto;
+    background-color: beige;
+}
+
+.sport-main-div {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.sport-sub {
+    width: 100%;
+
+}
+
+.activities-list-sport {
+    list-style: square;
+    font-size: 20px;
+    padding: 10px 0px;
+    color: #BDB76B;
+    margin: 15px 30px;
+
+}
+
+.sport-img {
+    width: 450px;
+}
+
+#sp-im {
+    margin-top: 14%;
+}
+
+.sport-para {
+    padding: 2% 0px;
+    font-size: 20px;
+    color: black;
+    line-height: 1.3;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.sport-list {
+    list-style: disc;
+    font-size: 20px;
+    padding: 5px 0px;
+    color: #BDB76B;
+    margin: 9px 30px;
+}
+
+
+/* CONTACT */
+#contact {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+}
+
+.contact-main-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 5% 0px; */
+    text-align: center;
+}
+
+.contact-sub {
+    width: 100%;
+    margin: 5% 0px;
+}
+
+
+input {
+    border: solid 1px #556B2F;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+label {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    margin-top: 5%;
+}
+
+#contact-button {
+    padding: 7px 20px;
+}
+
+#t1 {
+    color: white;
+}
+
+#t2 {
+    color: white;
+    line-height: 1.4;
+}
+
+/* MEDIA QUERY */
+@media (max-width:930px) {
+
+
+
+    .icons {
+        display: flex;
+    }
+
+    #cancel {
+        display: none;
+    }
+
+    #check:checked~.icons #menu {
+        display: none;
+    }
+
+    #check:checked~.icons #cancel {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: rgb(65, 54, 54);
+        width: 100%;
+        display: none;
+    }
+
+    #check:checked~.navbar {
+        display: block;
+        height: 18rem;
+    }
+
+    .navbar a {
+        display: block;
+        text-align: center;
+        margin: 1.5rem 0px;
+    }
+
+
+    .home-para {
+        font-size: 28px;
+        line-height: 1.5;
+        margin-top: 25px;
+    }
+
+    .home-heading {
+        font-size: 50px;
+        font-weight: 700;
+        /* color: #DAA520; */
+    }
+
+    .tour-para {
+        font-size: 28px;
+        line-height: 1.5;
+        margin-top: 25px;
+    }
+
+    .contact-main-div {
+        flex-wrap: wrap;
+    }
+
+    .contact-sub{
+        margin: 10% 0px;
+    }
+}
+
+@media(max-width:768px) {
+
+    #bt2 {
+        display: block;
+        margin-left: 40%;
+    }
+}
+
+@media(max-width:1280px) {
+
+    .guide-para {
+        padding-top: 1%;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .guide-heading-2 {
+        font-size: 30px;
+        padding-top: 4%;
+    }
+
+    .guide-main {
+        flex-wrap: wrap;
+    }
+
+    .sport-main-div {
+        flex-wrap: wrap;
+    }
+
+    #sp-im {
+        margin-top: 4%;
+    }
+}
+
+@media(max-width:480px) {
+    .sport-img {
+        width: 250px;
+    }
+}
