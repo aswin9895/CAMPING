@@ -88,6 +88,7 @@
     font-size: 45px;
     color: #BDB76B;
     font-weight: 600;
+    padding-top: 5%;
 }
 
 .home-para {
@@ -261,6 +262,7 @@
     list-style: square;
     font-size: 20px;
     padding: 10px 0px;
+    margin: 0px 25px;
 }
 
 /* GUIDE */
@@ -465,6 +467,7 @@ label {
     .home-heading {
         font-size: 50px;
         font-weight: 700;
+        padding-top: 13%;
         /* color: #DAA520; */
     }
 
